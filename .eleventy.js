@@ -1,7 +1,7 @@
 // .eleventy.js
 module.exports = function(eleventyConfig) {
-    // Copy the `css` directory to the output
-    eleventyConfig.addPassthroughCopy("css");
+    // Copy the `css/styles.css` file directly to the output
+    eleventyConfig.addPassthroughCopy({ "css/styles.css": "styles.css" });
 
     return {
         dir: {
