@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button.github {
+    background-color: #333;
+}
+
+.button.github:hover {
+    background-color: #222;
+}
+
+.button.pink {
+    background-color: #FF69B4;
+}
+
+.button.pink:hover {
+    background-color: #FF1493;
+}
+
+.button img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+/* Additional styles to match the uploaded design */
+.button-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-container a:hover {
+    background-color: #222;
+}
+
+.button-container .pink {
+    background-color: #FF69B4;
+}
+
+.button-container .pink:hover {
+    background-color: #FF1493;
+}
+
+.button-container img {
+    width: 24px;
+    height: 24px;
+}
