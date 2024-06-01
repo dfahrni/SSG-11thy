@@ -1,21 +1,6 @@
-<!-- index.njk -->
-<!-- _includes/head.njk -->
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gruppenarbeit</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="Testseite, Gruppenarbeit, GitHub, TEKO, Weiterbildung">
-    <meta name="author" content="Agon Thaqi, Daniel Fahrni">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<!-- _includes/header.njk -->
-<header>
-    <h1>Willkommen bei unserer Gruppenarbeit</h1>
-</header>
+<!-- index.md -->
+{% include "head.njk" %}
+{% include "header.njk" %}
 <main>
     <div class="content">
         <h2>Infos</h2>
@@ -34,9 +19,4 @@
         </div>
     </div>
 </main>
-<!-- _includes/footer.njk -->
-<footer>
-    <p>© 2024 Gruppenarbeit. Alle Rechte vorbehalten. Dani+Agon</p>
-</footer>
-</body>
-</html>
+{% include "footer.njk" %}
