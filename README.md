@@ -136,22 +136,22 @@ npx @11ty/eleventy
 ## Validierung und Analyse
 ### HTML und CSS Validierung:
 
-HTML Validator: W3C HTML Validator Result
-CSS Validator: W3C CSS Validator Result
+HTML Validator: [W3C HTML Validator Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdfahrni.github.io%2FSSG-11thy%2F)  
+CSS Validator: [W3C CSS Validator Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdfahrni.github.io%2FSSG-11thy%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)
 ### Lighthouse Analyse:
 
-PageSpeed Insights: PageSpeed Insights Result
+PageSpeed Insights: [PageSpeed Insights Result](https://pagespeed.web.dev/analysis/https-dfahrni-github-io-SSG-11thy/1lwpr6i6ue?form_factor=mobile)
 ## Dokumentation
-HTML Validator: W3C HTML Validator Result
-CSS Validator: W3C CSS Validator Result
-PageSpeed Insights: PageSpeed Insights Result
+HTML Validator: [W3C HTML Validator Result]()  
+CSS Validator: [W3C CSS Validator Result]()  
+PageSpeed Insights: [PageSpeed Insights Result]()
 ### Quellen und Hilfsmittel
-W3C HTML Validator
-W3C CSS Validator
-PageSpeed Insights
-Eleventy Dokumentation
-GitHub Pages Dokumentation
-KI-Tools: Teile dieser Dokumentation wurden mit Unterstützung von OpenAI ChatGPT erstellt.
+- W3C HTML Validator  
+- W3C CSS Validator  
+- PageSpeed Insights  
+- Eleventy Dokumentation  
+- GitHub Pages Dokumentation  
+- KI-Tools: Teile dieser Dokumentation wurden mit Unterstützung von OpenAI ChatGPT erstellt.
 ## Bewertungsraster
 Erläuterung und Begründung SSG (10 Punkte):
 
