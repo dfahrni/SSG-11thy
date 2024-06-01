@@ -142,9 +142,9 @@ CSS Validator: [W3C CSS Validator Result](https://jigsaw.w3.org/css-validator/va
 
 PageSpeed Insights: [PageSpeed Insights Result](https://pagespeed.web.dev/analysis/https-dfahrni-github-io-SSG-11thy/1lwpr6i6ue?form_factor=mobile)
 ## Dokumentation
-HTML Validator: [W3C HTML Validator Result]()  
-CSS Validator: [W3C CSS Validator Result]()  
-PageSpeed Insights: [PageSpeed Insights Result]()
+HTML Validator: [W3C HTML Validator](https://validator.w3.org/)  
+CSS Validator: [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)  
+PageSpeed Insights: [PageSpeed Insights](https://pagespeed.web.dev/)
 ### Quellen und Hilfsmittel
 - W3C HTML Validator  
 - W3C CSS Validator  
