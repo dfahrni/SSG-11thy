@@ -81,5 +81,3 @@ Für dieses Projekt wurde **Eleventy** (11ty) als Static Site Generator verwende
     - Die Website ist im Internet erreichbar und wird auf GitHub Pages gehostet, aufgrund der oben genannten Vorteile.
 
 ---
-
-Mit dieser Dokumentation sind alle erforderlichen Punkte abgedeckt. Stelle sicher, dass du die Links zu den Ergebnissen der Validatoren und PageSpeed Insights aktualisierst, sobald die entsprechenden Analysen durchgeführt wurden. Falls du weitere Anpassungen benötigst, lass es mich wissen!
