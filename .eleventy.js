@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
 
     // Ignoriere den `#Doku` Ordner
     eleventyConfig.ignores.add("#Doku");
+    eleventyConfig.ignores.add("README.md");
 
     return {
         dir: {
