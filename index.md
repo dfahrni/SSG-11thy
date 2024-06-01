@@ -6,7 +6,7 @@
         <h2>Infos</h2>
         <p>Alle Informationen dieser Webseite findest du in folgendem GitHub Repository:</p>
         <div class="button-container">
-            <a href="https://github.com/dfahrni/gruppenarbeit1" class="button github">
+            <a href="https://github.com/dfahrni/SSG-11thy" class="button github">
                 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
             </a>
         </div>
