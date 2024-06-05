@@ -19,8 +19,8 @@ Erstelle eine Website für dich persönlich oder ein Projekt deiner Wahl und dep
     - Deploye die Website auf einem Hosting für statische Webseiten direkt und automatisch aus dem Git Repository.
 
 5. **Validierung**:
-    - Stelle sicher, dass HTML und CSS korrekt sind ([W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdfahrni.github.io%2FSSG-11thy%2F), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdfahrni.github.io%2FSSG-11thy%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)).
-    - Stelle sicher, dass der Lighthouse Index über 90 ist ([PageSpeed Insights](https://pagespeed.web.dev/analysis/https-dfahrni-github-io-SSG-11thy/1lwpr6i6ue?form_factor=mobile)).
+    - Stelle sicher, dass HTML und CSS korrekt sind ([W3C HTML Validator](https://validator.w3.org), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)).
+    - Stelle sicher, dass der Lighthouse Index über 90 ist ([PageSpeed Insights](https://pagespeed.web.dev/)).
 
 ## Implementierungsschritte
 
