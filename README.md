@@ -1,1 +1,54 @@
-Test
+# Projektarbeit Webengineering
+
+## Webseite
+**[Gruppenarbeit](https://dfahrni.github.io/SSG-11thy/)**
+
+## Erläuterung und Begründung SSG
+
+### Erläuterung SSG
+Ein Static Site Generator (SSG) ist ein Werkzeug, das Entwicklern hilft, Webseiten zu erstellen, indem es statische HTML-Dateien aus Vorlagen und Inhalten generiert. Entwickler schreiben den Inhalt in einfachen Formaten wie Markdown und verwenden Templates für das Layout. Der SSG kombiniert diese Elemente und erzeugt daraus fertige, statische Webseiten.
+
+Das Pflegen einer Webseite mit einem SSG ist einfach. Wenn neuer Inhalt hinzugefügt werden soll, erstellt der Entwickler eine neue Datei mit dem gewünschten Text oder Informationen. Danach wird der SSG ausgeführt, um die neuen HTML-Seiten zu generieren, die dann auf den Webserver hochgeladen werden. Dieser Prozess ermöglicht es, die Webseite aktuell zu halten, ohne dass komplexe Verwaltung dynamischer Inhalte erforderlich ist.
+
+### Begründung SSG
+Wir haben uns entschieden, Eleventy als unseren Static Site Generator (SSG) zu nutzen, aus mehreren wichtigen Gründen:
+
+Beispiel vom Dozent: Unser Dozent hat Eleventy als Beispiel genutzt, was uns den Einstieg erheblich erleichtert hat. Da wir bereits mit den grundlegenden Funktionen und Konzepten vertraut sind, konnten wir ohne lange Einarbeitungszeit produktiv mit Eleventy arbeiten.
+
+Gute Dokumentation: Eleventy bietet eine ausgezeichnete Dokumentation. Diese ist klar strukturiert und umfassend, was uns ermöglicht, schnell Antworten auf Fragen zu finden und Lösungen für Probleme zu erarbeiten. Eine gute Dokumentation ist entscheidend für effizientes Arbeiten und schnelle Fortschritte in der Entwicklung.
+
+Einfache Installation: Eleventy lässt sich problemlos mit dem npm Package Manager installieren. Dies erleichtert die Integration in unsere bestehenden Entwicklungsprozesse und ermöglicht es uns, schnell mit der Arbeit zu beginnen. Die einfache Installation und Handhabung spart Zeit und reduziert die Komplexität der Einrichtung.
+
+Hohe Performance: Eleventy ist einer der performantesten SSGs auf dem Markt. Seine Fähigkeit, Webseiten schnell und effizient zu generieren.
+
+Durch die Kombination dieser Vorteile – einfache Einarbeitung dank des Beispiels unseres Dozenten, hervorragende Dokumentation, unkomplizierte Installation und hohe Performance – ist Eleventy die ideale Wahl für unser Projekt. Es ermöglicht uns, effektiv und effizient zu arbeiten und gleichzeitig eine qualitativ hochwertige und schnell ladende Webseite zu erstellen.
+
+## Validierungsanforderung
+
+### HTML und CSS Validierung
+- **HTML Validator:** [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdfahrni.github.io%2FSSG-11thy%2F)
+- **CSS Validator:** [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdfahrni.github.io%2FSSG-11thy%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)
+
+### Lighthouse Analyse
+- **PageSpeed Insights:** [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-dfahrni-github-io-SSG-11thy/1lwpr6i6ue?form_factor=mobile)
+
+## Deployment und Hosting
+
+### Deployment
+Unser Projekt wird direkt aus unserem GitHub-Repository über GitHub Pages bereitgestellt. Dabei startet unser Master-Repository eine Pipeline, die im Hintergrund Eleventy rendert und somit nur die Daten des "_site" -Ordners deployt.
+
+[Hier](https://dfahrni.github.io/SSG-11thy/) kommst du zu unserer Webseite.
+
+### Begründung GitHub Pages
+Wir haben uns für GitHub Pages entschieden, weil es viele Vorteile bietet, die unsere Entwicklung und Bereitstellung erheblich vereinfachen.
+
+Erstens ist GitHub Pages kostenlos, was es zu einer sehr kosteneffizienten Lösung macht. Darüber hinaus müssen wir uns keine Sorgen um SSL-Zertifikate machen, da diese automatisch bereitgestellt und verwaltet werden. Dies gewährleistet eine sichere Verbindung für unsere Webseite, ohne zusätzlichen Aufwand.
+
+Ein weiteres Highlight ist die Integration von GitHub Actions, die uns eine leistungsstarke und flexible Pipeline zur Verfügung stellt. Mit GitHub Actions können wir automatisierte Workflows erstellen, die verschiedene Aufgaben wie Tests, Builds und Deployments ausführen.
+
+Durch die Nutzung von Access Tokens können wir das Deployment der Webseite sicher und automatisiert auf einem separaten Branch durchführen. Dies erleichtert das Management unserer Veröffentlichungen und stellt sicher, dass nur geprüfte und genehmigte Änderungen live gehen.
+
+Zusätzlich bietet GitHub Pages eine hervorragende Integration mit dem gesamten GitHub-Plattform, was die Zusammenarbeit im Team vereinfacht.
+
+
+
