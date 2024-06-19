@@ -63,7 +63,8 @@ Vergleich zu anderen SSG:
 
 **4. Performance:** Eleventy generiert schnelle, statische HTML-Dateien, die unsere Webseite schnell laden lassen. Obwohl Hugo bekanntlich schneller ist, bietet Eleventy für unsere Bedürfnisse ausreichend Performance.
 
-**Quellen zur Begründung:** https://www.11ty.dev/
+**Quellen zur Begründung:**
+https://www.11ty.dev/
 https://www.aleksandrhovhannisyan.com/blog/eleventy-the-good-the-bad-and-the-possum/
 
 ### Deployment
@@ -71,7 +72,8 @@ Im Vergleich bieten andere Hosting-Möglichkeiten ebenfalls Vorteile. Netlify bi
 
 Zusammengefasst ist GitHub Pages eine kostenlose, einfache und sichere Hosting-Lösung, ideal für kleine bis mittelgrosse Projekte, während andere Anbieter zusätzliche Funktionen und Flexibilität bieten, jedoch oft mit höheren Kosten und mehr Komplexität verbunden sind.
 
-**Quellen zum Deployment:** https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
+**Quellen zum Deployment:**
+https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
 https://jamstacky.com/comparision/github-pages-vs-cloudflare-pages/
 
 ### Vergleich zu self-Hosting
