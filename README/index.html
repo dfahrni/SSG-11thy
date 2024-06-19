@@ -39,15 +39,19 @@
 <p><strong>2. Einfachheit:</strong> Eleventy ist einfach einzurichten und zu verwenden. Im Vergleich zu komplexeren SSGs wie Gatsby, das auf React und GraphQL aufbaut, ist Eleventy leichter zu lernen und schneller zu nutzen.</p>
 <p><strong>3. Anpassbarkeit:</strong> Eleventy gibt uns keine strikten Vorgaben und lässt uns unsere eigene Struktur und Arbeitsabläufe gestalten. Das ist ein grosser Vorteil gegenüber SSGs wie Jekyll, die vordefinierte Strukturen haben.</p>
 <p><strong>4. Performance:</strong> Eleventy generiert schnelle, statische HTML-Dateien, die unsere Webseite schnell laden lassen. Obwohl Hugo bekanntlich schneller ist, bietet Eleventy für unsere Bedürfnisse ausreichend Performance.</p>
-<p><strong>Quellen zur Begründung:</strong>
-https://www.11ty.dev/
-https://www.aleksandrhovhannisyan.com/blog/eleventy-the-good-the-bad-and-the-possum/</p>
+<p><strong>Quellen zur Begründung:</strong></p>
+<ul>
+<li>https://www.11ty.dev/</li>
+<li>https://www.aleksandrhovhannisyan.com/blog/eleventy-the-good-the-bad-and-the-possum/</li>
+</ul>
 <h3>Deployment</h3>
 <p>Im Vergleich bieten andere Hosting-Möglichkeiten ebenfalls Vorteile. Netlify bietet erweiterte Funktionen wie Formulare und serverlose Funktionen, ist aber für grössere Projekte kostenpflichtig. Vercel ist auf hohe Leistung und Skalierung ausgelegt, ideal für Next.js-Projekte, jedoch ebenfalls kostenpflichtig für erweiterte Funktionen. AWS S3 und CloudFront sind sehr leistungsstark und skalierbar, erfordern jedoch technisches Wissen und können bei hohem Traffic teuer werden. DigitalOcean bietet grosse Anpassungsmöglichkeiten durch virtuelle Maschinen, erfordert aber mehr technische Verwaltung und Wartung.</p>
 <p>Zusammengefasst ist GitHub Pages eine kostenlose, einfache und sichere Hosting-Lösung, ideal für kleine bis mittelgrosse Projekte, während andere Anbieter zusätzliche Funktionen und Flexibilität bieten, jedoch oft mit höheren Kosten und mehr Komplexität verbunden sind.</p>
-<p><strong>Quellen zum Deployment:</strong>
-https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
-https://jamstacky.com/comparision/github-pages-vs-cloudflare-pages/</p>
+<p><strong>Quellen zum Deployment:</strong></p>
+<ul>
+<li>https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages</li>
+<li>https://jamstacky.com/comparision/github-pages-vs-cloudflare-pages/</li>
+</ul>
 <h3>Vergleich zu self-Hosting</h3>
 <p>Wir haben versucht, unsere Webseite selbst zu hosten, sind aber auf mehrere Probleme gestossen. Schwierigkeiten mit dem HTML Validator und das korrekte Einrichten von SSL-Zertifikaten führten dazu, dass unsere Webseite als unsicher eingestuft wurde. GeoBlocking durch Daniels pfSense Firewall schränkte die Erreichbarkeit ein, und offenstehende Ports machten die Webseite anfällig für Angriffe. Zudem war die Webseite nicht rund um die Uhr erreichbar, da sie in Daniels privater Umgebung gehostet wurde.</p>
 <p>Deshalb haben wir uns für GitHub Pages entschieden. Es bietet eine kostenlose, sichere und zuverlässige Lösung mit automatischen SSL-Zertifikaten. Zudem ermöglicht es einfache Implementierung von Pipelines und automatisiert viele Prozesse, was unseren Entwicklungs- und Deploymentprozess erheblich vereinfacht hat.</p>
