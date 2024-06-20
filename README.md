@@ -52,7 +52,7 @@ Zusätzlich bietet GitHub Pages eine hervorragende Integration mit dem gesamten 
 
 ## Nachkorrektur
 
-### SSG
+### Ergänzung SSG
 Vergleich zu anderen SSG:
 
 **1. Flexibilität:** Eleventy unterstützt viele Template-Sprachen wie Nunjucks, Liquid und Markdown. Das gibt uns die Freiheit, die Tools zu verwenden, die am besten zu unserem Projekt passen.
@@ -67,7 +67,7 @@ Vergleich zu anderen SSG:
 - https://www.11ty.dev/
 - https://www.aleksandrhovhannisyan.com/blog/eleventy-the-good-the-bad-and-the-possum/
 
-### Deployment
+### Ergänzung Deployment
 Im Vergleich bieten andere Hosting-Möglichkeiten ebenfalls Vorteile. Netlify bietet erweiterte Funktionen wie Formulare und serverlose Funktionen, ist aber für grössere Projekte kostenpflichtig. Vercel ist auf hohe Leistung und Skalierung ausgelegt, ideal für Next.js-Projekte, jedoch ebenfalls kostenpflichtig für erweiterte Funktionen. AWS S3 und CloudFront sind sehr leistungsstark und skalierbar, erfordern jedoch technisches Wissen und können bei hohem Traffic teuer werden. DigitalOcean bietet grosse Anpassungsmöglichkeiten durch virtuelle Maschinen, erfordert aber mehr technische Verwaltung und Wartung.
 
 Zusammengefasst ist GitHub Pages eine kostenlose, einfache und sichere Hosting-Lösung, ideal für kleine bis mittelgrosse Projekte, während andere Anbieter zusätzliche Funktionen und Flexibilität bieten, jedoch oft mit höheren Kosten und mehr Komplexität verbunden sind.
